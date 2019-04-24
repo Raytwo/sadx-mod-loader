@@ -307,6 +307,7 @@ FunctionPointer(int, UnloadLevelTextures, (__int16 levelact), 0x421040);
 FunctionPointer(int, LoadSystemPVM, (const char *filename, NJS_TEXLIST *texList), 0x4210A0);
 FunctionPointer(void, LoadPVM, (const char *filename, NJS_TEXLIST *texlist), 0x421180);
 FunctionPointer(Sint32, LoadPvmMEM2, (const char *filename, NJS_TEXLIST *texlist), 0x421260);
+FunctionPointer(void, LoadCharMotions, (int charID), 0x422680);
 FunctionPointer(void, LoadCharTextures, (int charID), 0x421280);
 FunctionPointer(void, LoadRegObjTextures, (int a1), 0x4212E0);
 VoidFunc(LoadLevelObjTextures, 0x4213A0);
