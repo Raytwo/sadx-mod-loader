@@ -550,7 +550,7 @@ struct ObjectMaster
 	void *Data2;
 	void *UnknownA_ptr;
 	void *UnknownB_ptr;
-	int field_30;
+	ObjectMaster *field_30;
 };
 
 struct VideoData
